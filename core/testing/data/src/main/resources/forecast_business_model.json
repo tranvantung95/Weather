@@ -1,0 +1,251 @@
+{
+  "city": {
+    "lat": 0.0,
+    "lon": 0.0,
+    "name": "Ho Chi Minh City"
+  },
+  "forecast": [
+    {
+      "timeStamp": 1709791200,
+      "weather": {
+        "feelsLike": 312.02,
+        "humidity": 66,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 31.95,
+        "wind": 3.67
+      }
+    },
+    {
+      "timeStamp": 1709802000,
+      "weather": {
+        "feelsLike": 311.06,
+        "humidity": 60,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 32.35,
+        "wind": 7.08
+      }
+    },
+    {
+      "timeStamp": 1709812800,
+      "weather": {
+        "feelsLike": 304.66,
+        "humidity": 66,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 28.74,
+        "wind": 6.12
+      }
+    },
+    {
+      "timeStamp": 1709823600,
+      "weather": {
+        "feelsLike": 299.63,
+        "humidity": 74,
+        "iconUrl": "https://openweathermap.org/img/wn/02n@2x.png",
+        "main": "Clouds",
+        "temp": 25.9,
+        "wind": 6.81
+      }
+    },
+    {
+      "timeStamp": 1709834400,
+      "weather": {
+        "feelsLike": 299.67,
+        "humidity": 76,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 25.89,
+        "wind": 4.38
+      }
+    },
+    {
+      "timeStamp": 1709845200,
+      "weather": {
+        "feelsLike": 299.34,
+        "humidity": 77,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 25.57,
+        "wind": 4.75
+      }
+    },
+    {
+      "timeStamp": 1709856000,
+      "weather": {
+        "feelsLike": 299.16,
+        "humidity": 72,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 26.01,
+        "wind": 4.7
+      }
+    },
+    {
+      "timeStamp": 1709866800,
+      "weather": {
+        "feelsLike": 306.52,
+        "humidity": 36,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 33.27,
+        "wind": 5.16
+      }
+    },
+    {
+      "timeStamp": 1709877600,
+      "weather": {
+        "feelsLike": 310.45,
+        "humidity": 23,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 37.95,
+        "wind": 4.1
+      }
+    },
+    {
+      "timeStamp": 1709888400,
+      "weather": {
+        "feelsLike": 308.77,
+        "humidity": 31,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 35.49,
+        "wind": 7.61
+      }
+    },
+    {
+      "timeStamp": 1709899200,
+      "weather": {
+        "feelsLike": 301.96,
+        "humidity": 59,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 27.62,
+        "wind": 6.67
+      }
+    },
+    {
+      "timeStamp": 1709910000,
+      "weather": {
+        "feelsLike": 301.37,
+        "humidity": 59,
+        "iconUrl": "https://openweathermap.org/img/wn/03n@2x.png",
+        "main": "Clouds",
+        "temp": 27.17,
+        "wind": 6.64
+      }
+    },
+    {
+      "timeStamp": 1709920800,
+      "weather": {
+        "feelsLike": 299.62,
+        "humidity": 62,
+        "iconUrl": "https://openweathermap.org/img/wn/03n@2x.png",
+        "main": "Clouds",
+        "temp": 26.47,
+        "wind": 3.98
+      }
+    },
+    {
+      "timeStamp": 1709931600,
+      "weather": {
+        "feelsLike": 298.59,
+        "humidity": 66,
+        "iconUrl": "https://openweathermap.org/img/wn/02n@2x.png",
+        "main": "Clouds",
+        "temp": 25.15,
+        "wind": 2.31
+      }
+    },
+    {
+      "timeStamp": 1709942400,
+      "weather": {
+        "feelsLike": 299.32,
+        "humidity": 61,
+        "iconUrl": "https://openweathermap.org/img/wn/03d@2x.png",
+        "main": "Clouds",
+        "temp": 25.93,
+        "wind": 3.22
+      }
+    },
+    {
+      "timeStamp": 1709953200,
+      "weather": {
+        "feelsLike": 306.21,
+        "humidity": 41,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 32.4,
+        "wind": 2.79
+      }
+    },
+    {
+      "timeStamp": 1709964000,
+      "weather": {
+        "feelsLike": 312.25,
+        "humidity": 29,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 37.99,
+        "wind": 1.24
+      }
+    },
+    {
+      "timeStamp": 1709974800,
+      "weather": {
+        "feelsLike": 309.83,
+        "humidity": 36,
+        "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+        "main": "Clouds",
+        "temp": 35.35,
+        "wind": 6.79
+      }
+    },
+    {
+      "timeStamp": 1709985600,
+      "weather": {
+        "feelsLike": 302.97,
+        "humidity": 63,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 28.02,
+        "wind": 7.41
+      }
+    },
+    {
+      "timeStamp": 1709996400,
+      "weather": {
+        "feelsLike": 301.89,
+        "humidity": 70,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 26.93,
+        "wind": 6.6
+      }
+    },
+    {
+      "timeStamp": 1710007200,
+      "weather": {
+        "feelsLike": 299.37,
+        "humidity": 74,
+        "iconUrl": "https://openweathermap.org/img/wn/03n@2x.png",
+        "main": "Clouds",
+        "temp": 26.22,
+        "wind": 3.79
+      }
+    },
+    {
+      "timeStamp": 1710018000,
+      "weather": {
+        "feelsLike": 299.16,
+        "humidity": 76,
+        "iconUrl": "https://openweathermap.org/img/wn/04n@2x.png",
+        "main": "Clouds",
+        "temp": 25.43,
+        "wind": 1.82
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("weather.android.application")
+    id("kotlin-kapt")
 }
 
 android {
@@ -16,7 +16,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -26,17 +28,18 @@ android {
             )
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
 }
 
 dependencies {
-
+    implementation(project(":core:data"))
+    implementation(project(":core:domain"))
+    implementation(project(":core:presentation"))
+    implementation(project(":core:common"))
+    implementation(project(":feature:wheather:data"))
+    implementation(project(":feature:wheather:domain"))
+    implementation(project(":feature:wheather:presentation"))
+    implementation(project(":feature:localstorage:data"))
+    implementation(project(":feature:localstorage:domain"))
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
@@ -44,4 +47,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
 }

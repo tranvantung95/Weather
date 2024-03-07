@@ -1,4 +1,3 @@
-import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.gradle.LibraryExtension
 import com.example.wheatherbuildlogic.libs
 import org.gradle.api.Plugin
@@ -14,10 +13,21 @@ class AndroidNetworkPlugin : Plugin<Project> {
             }
             extensions.configure<LibraryExtension> {
                 defaultConfig {
+                    buildFeatures.buildConfig = true
                     buildConfigField(
                         type = "String",
                         name = "BASE_URL",
-                        value = "http://api.openweathermap.org/"
+                        value = "\"http://api.openweathermap.org/\""
+                    )
+                    buildConfigField(
+                        type = "String",
+                        name = "WEATHER_API_KEY",
+                        value = "\"${project.findProperty("WEATHER_API_KEY")}\""
+                    )
+                    buildConfigField(
+                        type = "String",
+                        name = "WEATHER_URL_ICON",
+                        value = "\"${project.findProperty("WEATHER_URL_ICON")}\""
                     )
                 }
             }
@@ -28,6 +38,8 @@ class AndroidNetworkPlugin : Plugin<Project> {
                 add("implementation", libs.findLibrary("retrofit-kotlin-serialization").get())
                 add("implementation", libs.findLibrary("gson.convert").get())
                 add("implementation", libs.findLibrary("gson").get())
+                add("implementation", libs.findLibrary("koin.android").get())
+                add("implementation", libs.findLibrary("koin.core").get())
             }
         }
     }

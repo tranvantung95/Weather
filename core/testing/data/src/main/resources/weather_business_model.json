@@ -1,0 +1,9 @@
+{
+  "cityName": "Ho Chi Minh City",
+  "feelsLike": 312.02,
+  "humidity": 66,
+  "iconUrl": "https://openweathermap.org/img/wn/04d@2x.png",
+  "main": "Clouds",
+  "temp": 31.95,
+  "wind": 2.06
+}

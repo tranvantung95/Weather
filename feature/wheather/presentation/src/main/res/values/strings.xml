@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_city">search city</string>
+    <string name="temperature_format">%1$s °C</string>
+    <string name="humidity_format">%1$s %%</string>
+    <string name="wind_format">%1$s m/s</string>
+    <string name="temperature_text">Temperature</string>
+    <string name="humidity_text">Humidity</string>
+    <string name="wind_text">Wind</string>
+</resources>

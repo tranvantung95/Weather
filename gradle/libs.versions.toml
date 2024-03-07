@@ -9,10 +9,10 @@ junit = "4.13.2"
 androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 appcompat = "1.6.1"
-material = "1.9.0"
+material = "1.11.0"
 org-jetbrains-kotlin-jvm = "1.9.22"
 gson-converter = "2.9.0"
-gson = "2.8.6"
+gson = "2.10.1"
 coroutines-core = "1.4.1"
 androidDesugarJdkLibs = "1.2.2"
 fragmentVersion = "1.6.1"
@@ -30,13 +30,22 @@ mockk = "1.13.2"
 mockkAndroid = "1.13.2"
 coroutineTest = "1.7.2"
 archTest = "2.2.0"
-turbineVersion = "0.12.1"
+turbineVersion = "1.1.0"
 kaspressoVersion = "1.5.2"
 fragmentTesting = "1.6.0"
 idlingVersion = "3.5.1"
 mockwebSever = "4.11.0"
 koinTest = "3.4.1"
+koin-core = "3.5.0"
+koin-android = "3.5.0"
+glide-version = "4.16.0"
+mpchartVersion = "v3.1.0"
+recyclerviewVerision = "1.3.2"
+truth-version="1.1.5"
 [libraries]
+#di
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin-android" }
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin-core" }
 android-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibs" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
@@ -47,12 +56,16 @@ ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devto
 #gson
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 gson-convert = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gson-converter" }
-
+#glide
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide-version" }
 #android
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragmentVersion" }
 androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentVersion" }
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines-core" }
+mpchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpchartVersion" }
+
+recyclerView = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerviewVerision" }
 #lifecycle
 lifecycle-ext = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExt" }
 lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "viewModelKtx" }
@@ -82,6 +95,7 @@ kaspresso = { group = "com.kaspersky.android-components", name = "kaspresso", ve
 fragment-testing = { group = "androidx.fragment", name = "fragment-testing", version.ref = "fragmentTesting" }
 espresso-idling = { group = "androidx.test.espresso", name = "espresso-idling-resource", version.ref = "idlingVersion" }
 mock-websever = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebSever" }
+google-truth = {group ="com.google.truth", name="truth", version="truth-version"}
 
 [plugins]
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
